@@ -1,6 +1,12 @@
-# QuansysAI-Website
+# Quansys AI Website
 
 ![QuansysAI Website](assets/screenshot.png)
+
+<div align="center">
+  <a href="https://quansys.ai/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit_Website-QuansysAI-blue?style=for-the-badge" alt="Visit QuansysAI Website" />
+  </a>
+</div>
 
 ## Quick Start Guide
 
