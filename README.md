@@ -1,99 +1,104 @@
-# ClickDrink 🍻
+# Quansys AI Website
 
-![ClickDrink Cover](assets/cover.png)
+![QuansysAI Website](assets/screenshot.png)
 
 <div align="center">
-  <img src="assets/screenshot-1.png" width="45%" alt="ClickDrink Screenshot 1">
-  <img src="assets/screenshot-2.png" width="45%" alt="ClickDrink Screenshot 2">
+  <a href="https://quansys.ai/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit_Website-QuansysAI-blue?style=for-the-badge" alt="Visit QuansysAI Website" />
+  </a>
 </div>
 
-A Telegram Mini App that lets users earn rewards through social engagement and interactive clicking. Built with HTML, CSS, JavaScript, Express.js, MongoDB, Mongoose, Node.js, body-parser, session management, HTTPS, dotenv, and more with seamless integration with Telegram's WebApp platform.
+## Quick Start Guide
 
-## 🚀 Features
+### Prerequisites
+* Node.js (v18 or higher)
+* npm or yarn
+* SSL certificate (for production)
 
-- **Interactive Clicking System**: Earn rewards through engaging tap mechanics
-- **Social Tasks**: Complete tasks like following on social media for additional rewards
-- **Real-time Counter**: Live updating counter with smooth animations
-- **Haptic Feedback**: Multi-platform vibration support
-- **Persistent Storage**: Local storage for maintaining task completion states
-- **Telegram Integration**: Seamless integration with Telegram Mini App platform
+### Step-by-Step Installation
 
-## 💻 Tech Stack
-
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js, Express
-- Database: MongoDB
-- Session Management: express-session
-- Authentication: Telegram WebApp API
-
-## 🛠️ Installation
-
-1. Clone the repository
+1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/clickdrink.git
+   git clone https://github.com/QuansysAI/website.git
+   cd website
    ```
-2. Install dependencies
+
+2. **Environment Setup**
+   ```bash
+   cp .env.example .env
+   # Update .env with your configuration
+   ```
+
+3. **Install Dependencies**
    ```bash
    npm install
+   # or
+   yarn install
    ```
-3. Configure environment variables
-   ```env
-   MONGODB_ATLAS_URI=your_mongodb_uri
-   APP_SECRET=your_app_secret
-   ```
-4. Start the server
+
+4. **Development Mode**
    ```bash
-   npm start
+   npm run dev
+   # or
+   yarn dev
+   ```
+   The site will be available at `http://localhost:3000`
+
+5. **Production Build**
+   ```bash
+   npm run build
+   npm run start
+   # or
+   yarn build
+   yarn start
    ```
 
-## 🔧 Core Functionality
+### SSL Configuration
 
-### Haptic Feedback System
+1. **Place SSL Certificates**
+   - Put your SSL certificates in the `/ssl` directory:
+     - `certificate.crt`
+     - `private.key`
+     - `ca_bundle.crt` (if required)
 
-```javascript
-function triggerHapticFeedback() {
-    // Telegram WebApp Haptic Feedback
-    if (window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.HapticFeedback) {
-        window.Telegram.WebApp.HapticFeedback.impactOccurred('light');
-    }
+2. **Update SSL Configuration**
+   ```bash
+   # In your .env file
+   SSL_ENABLED=true
+   SSL_CERT_PATH=/ssl/certificate.crt
+   SSL_KEY_PATH=/ssl/private.key
+   ```
 
-    // Web Vibration API
-    if ('vibrate' in navigator) {
-        navigator.vibrate(50);
-    }
+3. **Start with HTTPS**
+   ```bash
+   npm run start:ssl
+   # or
+   yarn start:ssl
+   ```
 
-    // Android Bridge
-    if (window.Android && typeof window.Android.vibrate === 'function') {
-        window.Android.vibrate(50);
-    }
-}
+## Key Features
+* 🎨 Responsive Design
+* ⚡ Modern UI/UX
+* 🔄 Interactive Components
+* 📱 Mobile-First Approach
+* 🔍 SEO Optimized
+
+## Project Structure
+```
+website/
+├── src/
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # Page components
+│   └── styles/       # Global styles
+├── public/           # Static assets
+├── ssl/             # SSL certificates
+└── tests/           # Test files
 ```
 
-## 📱 Usage
+## License
+MIT License
 
-1. Open the app through Telegram Mini Apps
-2. Click to earn rewards
-3. Complete social tasks for bonus rewards
-4. Share with friends to multiply earnings
-
-## 🔒 Security
-
-- Secure session management
-- MongoDB encryption
-- HTTPS enabled
-- Protected API endpoints
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-* Website: [shivsingh.com](https://shivsingh.com)
+## Contact
+* Website: [quansys.ai](https://shivsingh.com)
 * Email: hi@shivsingh.com
 * LinkedIn: [Shiv Singh](https://linkedin.com/in/shivsinghin)
