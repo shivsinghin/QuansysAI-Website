@@ -2,9 +2,6 @@
 
 ![QuansysAI Website](assets/screenshot.png)
 
-## Description
-A modern website showcasing QuansysAI's services and solutions, built with cutting-edge technologies for optimal performance and user experience.
-
 ## Quick Start Guide
 
 ### Prerequisites
@@ -92,30 +89,10 @@ website/
 └── tests/           # Test files
 ```
 
-## Available Commands
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run start    # Start production server
-npm run test     # Run tests
-npm run lint     # Run linting
-npm run start:ssl # Start with SSL
-```
-
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Support
-For support, email support@quansys.ai or join our Slack channel.
-
 ## License
-MIT License - See LICENSE file for details
+MIT License
 
 ## Contact
-* Website: [quansys.ai](https://quansys.ai)
-* Email: contact@quansys.ai
-* LinkedIn: [QuansysAI](https://linkedin.com/company/quansysai)
+* Website: [quansys.ai](https://shivsingh.com)
+* Email: hi@shivsingh.com
+* LinkedIn: [QuansysAI](https://linkedin.com/in/shivsinghin)
