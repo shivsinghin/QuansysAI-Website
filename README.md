@@ -98,20 +98,7 @@ website/
 ## License
 MIT License
 
-## 📬 Contact
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://shivsingh.com">🌐 Website</a>
-      </td>
-      <td align="center">
-        <a href="mailto:hi@shivsingh.com">📧 Email</a>
-      </td>
-      <td align="center">
-        <a href="https://linkedin.com/in/shivsinghin">👥 LinkedIn</a>
-      </td>
-    </tr>
-  </table>
-</div>
+## Contact
+* Website: [quansys.ai](https://shivsingh.com)
+* Email: hi@shivsingh.com
+* LinkedIn: [QuansysAI](https://linkedin.com/in/shivsinghin)
