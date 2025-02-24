@@ -19,7 +19,7 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/QuansysAI/website.git
+   git clone https://github.com/shivsinghin/QuansysAI-Website.git
    cd website
    ```
 
