@@ -99,6 +99,6 @@ website/
 MIT License
 
 ## Contact
-* Website: [quansys.ai](https://shivsingh.com)
+* Website: [shivsingh.com](https://shivsingh.com)
 * Email: hi@shivsingh.com
 * LinkedIn: [QuansysAI](https://linkedin.com/in/shivsinghin)
